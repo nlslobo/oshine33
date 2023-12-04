@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600&family=Nunito:wght@200;300;400;500;600&display=swap');
+:root{
+	--color-contenido:#808080;
+	--color-titulos:#222;
+	--color-primary:#28d1a2;
+	--color-negro:#000;
+	--fondo-gris:#f4f4f4;
+	--color-hover-menu:#2293D7;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	color: var(--color-contenido);
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+header{
+	background-color: #000;
+	padding: 20px 0;
+}
+
+#hero{
+	background-image: url("../img/hero-home.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 10% 0;
+}
+
+#hero h1{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+#hero p{
+	color: #fff;
+	font-size: 18px;
+}
+
+.btn-light{
+	border-radius: 0;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-weight: 600;
+	border: 0;
+}
+
+.btn-light:hover{
+	background-color: #000;
+	color: #fff;
+	
+}
+
+.section{
+	padding: 7% 0;
+}
+
+.titulo{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+.subtitulo{
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+}
+
+#welcome p{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.btn-primary{
+	background-color: var(--color-primary);
+	padding: 15px 40px;
+	border-color: var(--color-primary);
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.btn-primary:hover{
+	background-color: #fff;
+	color: var(--color-negro);
+	border-color: var(--color-negro);
+}
+
+#stunning{
+	text-align: center;
+	background-color: var(--fondo-gris);
+}
+
+.icon{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: var(--color-primary);
+	border:1px solid #0FB083;
+	margin: 20px auto;
+	color: #fff;
+}
+
+#stunning h3{
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+
+#stunning .subtitulo{
+	color: #757575;
+	margin-bottom: 40px;
+}
+
+.info-work{
+	position: relative;
+}
+
+.bg-work{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0,208,169,0.80);
+	color:#fff;
+	opacity: 0;
+	transition: all 0.4s ease-in;
+}
+.bg-work h4{
+	color: #FFFFFF;
+}
+
+.bg-work:hover{
+	opacity: 1;
+	transition: all 0.4s ease-in;
+}
+
+#bg-frame{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	
+}
+
+.info-work:hover{
+	filter: grayscale(1)
+}
+
+
+
